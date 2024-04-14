@@ -35,7 +35,7 @@ function display(i){
         s = "";
         n = 0;
         result = 0;
-        output.innerText = s;
+        output.innerText = 0;
     }
     else if(i=="+"){
         result = result + n;
@@ -46,7 +46,11 @@ function display(i){
     }
     else if(i=="="){
         result = result + n;
-        s = s + " = " + result;
+        if(s != ""){
+            s = s + " = " + result;
+        }else{
+            s = 0;
+        }
         output.innerText = s;
         s = "";
         result = 0;

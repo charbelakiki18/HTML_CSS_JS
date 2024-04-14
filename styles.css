@@ -5,14 +5,18 @@ body{
 }
 
 .Input{
+    background-color: orange;
     border: 1px solid;
+    border-radius: 20px;
     height: 175px;
     width: 175px;
 }
 
 .Output{
+    background-color: greenyellow;
+    margin-left: 15px;
     display: flex;
-    width: 175px;
+    width: 145px;
     align-items: center; /* Center vertically */
     height: 30px; /* Adjust the height of the outer container */
     border: 1px solid; /* Just for visualization */
@@ -21,6 +25,17 @@ body{
     margin: 10px;
     border-radius: 500px;
     width : 30px;
+    
+}
+.btn:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+.btn:active{
+
+}
+#display{
+    margin-left: 5px;
 }
 
 
