@@ -31,9 +31,6 @@ body{
     background-color: brown;
     transition: 0.5s;
 }
-.btn:active{
-
-}
 #display{
     margin-left: 5px;
 }
