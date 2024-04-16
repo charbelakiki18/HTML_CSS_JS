@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    background: transparent;
+    height: 80px;
+    width: 350px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    background-color: white;
+    padding: 5px;
+    display: none;
+}
+.txt{
+    margin: 5px;
+}
+.btn2{
+    border-color: white;
+    font-weight: bold;
+    font-size: large;
+    border-style: none;
+}
