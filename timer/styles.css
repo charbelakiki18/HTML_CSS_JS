@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#container{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#timer{
+    display: flex;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+}
+
+#play{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#play,#reset:hover{
+    cursor: pointer;
+}
+#reset{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
