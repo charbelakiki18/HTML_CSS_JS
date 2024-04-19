@@ -30,10 +30,6 @@ reset.addEventListener("click", function () {
   d6.innerText = 0;
 });
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 function timer() {
   if (p == false) {
     return;
